@@ -25,11 +25,11 @@ class GuesserViewController: UIViewController {
 
         // Store Dinosaur models
         dinosaurs = [gallimimus, stegosaurus, tyrannosaurus, brachiosaurus]
-
         print("Here are the different dinosaurs:")
         for dinosaur in dinosaurs {
             print(dinosaur)
         }
+        
     }
 
     @IBAction func didTapDinosaur(_ sender: UITapGestureRecognizer) {
@@ -57,6 +57,9 @@ class GuesserViewController: UIViewController {
             }
         }
     }
+    
+
+    
     
     }
 
